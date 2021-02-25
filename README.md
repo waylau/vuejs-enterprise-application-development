@@ -14,11 +14,15 @@
 
 * [开启第一个Vue.js 3应用](https://developer.huawei.com/consumer/cn/forum/topic/0201493946596180265?fid=23)
 * [探索Vue 3应用](https://developer.huawei.com/consumer/cn/forum/topic/0201493947940070266?fid=23)
+* [Vue 3使用TypeScript](https://developer.huawei.com/consumer/cn/forum/topic/0202494862427410279?fid=23)
 * 未完待续...
 
 ## Samples 示例
 
-* [Hello World](samples/HelloWorld)
+* [Hello World](samples/hello-world)
+* [Hello World add TypeScript](samples/hello-world-add-ts)
+* [Hello World with TypeScript](samples/hello-world-with-ts)
+* [TypeScript Demos](samples/typescript-demos)
 * 未完待续...
 
 
