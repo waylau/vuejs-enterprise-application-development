@@ -23,6 +23,7 @@
 * [Hello World add TypeScript](samples/hello-world-add-ts)
 * [Hello World with TypeScript](samples/hello-world-with-ts)
 * [TypeScript Demos](samples/typescript-demos)
+* [生命周期钩子的例子](samples/vue-lifecycle)
 * 未完待续...
 
 
