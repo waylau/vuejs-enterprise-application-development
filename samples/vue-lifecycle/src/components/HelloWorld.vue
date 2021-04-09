@@ -21,7 +21,7 @@ export default class HelloWorld extends Vue {
     console.log("Hello World!");
   }
 
-  // 定义生命周七钩子函数
+  // 定义生命周期钩子函数
   beforeCreate() {
     console.log("beforeCreate");
   }
