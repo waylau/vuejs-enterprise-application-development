@@ -15,6 +15,8 @@
 * [开启第一个Vue.js 3应用](https://developer.huawei.com/consumer/cn/forum/topic/0201493946596180265?fid=23)
 * [探索Vue 3应用](https://developer.huawei.com/consumer/cn/forum/topic/0201493947940070266?fid=23)
 * [Vue 3使用TypeScript](https://developer.huawei.com/consumer/cn/forum/topic/0202494862427410279?fid=23)
+* [Vue 3组件与Web组件的异同点](https://developer.huawei.com/consumer/cn/forum/topic/0202525033799260635?fid=23)
+* [Vue 3动态组件详解](https://developer.huawei.com/consumer/cn/forum/topic/0204533696955760004?fid=23)
 * 未完待续...
 
 ## Samples 示例
@@ -24,6 +26,12 @@
 * [Hello World with TypeScript](samples/hello-world-with-ts)
 * [TypeScript Demos](samples/typescript-demos)
 * [生命周期钩子的例子](samples/vue-lifecycle)
+* [Vue.js组件的示例](samples/basic-component)
+* [组件的复用](samples/basic-component-reusable)
+* [监听子组件事件](samples/listen-for-child-component-event)
+* [通过插槽分发内容](samples/slot-to-serve-as-distribution-outlets-for-content)
+* [动态组件](samples/dynamic-component)
+* [keep-alive使用示例](samples/dynamic-component-with-keep-alive)
 * 未完待续...
 
 
