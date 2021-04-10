@@ -17,6 +17,10 @@
 * [Vue 3使用TypeScript](https://developer.huawei.com/consumer/cn/forum/topic/0202494862427410279?fid=23)
 * [Vue 3组件与Web组件的异同点](https://developer.huawei.com/consumer/cn/forum/topic/0202525033799260635?fid=23)
 * [Vue 3动态组件详解](https://developer.huawei.com/consumer/cn/forum/topic/0204533696955760004?fid=23)
+* [Vue 3模板的基本概念](https://developer.huawei.com/consumer/cn/forum/topic/0204534591566950006?fid=23)
+* [Vue 3模板的插值](https://developer.huawei.com/consumer/cn/forum/topic/0204534592593360007?fid=23)
+* [Vue 3模板的指令](https://developer.huawei.com/consumer/cn/forum/topic/0203534593037900023?fid=23)
+
 * 未完待续...
 
 ## Samples 示例
@@ -32,6 +36,9 @@
 * [通过插槽分发内容](samples/slot-to-serve-as-distribution-outlets-for-content)
 * [动态组件](samples/dynamic-component)
 * [keep-alive使用示例](samples/dynamic-component-with-keep-alive)
+* [模板插值](samples/template-syntax-interpolation)
+* [指令](samples/template-syntax-directive)
+* [指令缩写](samples/template-syntax-directive-shorthand)
 * 未完待续...
 
 
