@@ -39,6 +39,8 @@
 * [模板插值](samples/template-syntax-interpolation)
 * [指令](samples/template-syntax-directive)
 * [指令缩写](samples/template-syntax-directive-shorthand)
+* [计算属性](samples/computed-basic)
+* [侦听器](samples/watch-basic)
 * 未完待续...
 
 
