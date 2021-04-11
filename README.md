@@ -41,6 +41,11 @@
 * [指令缩写](samples/template-syntax-directive-shorthand)
 * [计算属性](samples/computed-basic)
 * [侦听器](samples/watch-basic)
+* [绑定HTML class](samples/bind-class)
+* [绑定内联样式](samples/bind-style)
+* [条件表达式](samples/expression-conditional)
+* [for循环表达式](samples/expression-for)
+* [for循环表达式的不同使用场景](samples/expression-for-scene)
 * 未完待续...
 
 
