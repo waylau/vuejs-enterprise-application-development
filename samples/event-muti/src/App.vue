@@ -1,9 +1,7 @@
 <template>
   <div>
-    <button @click="counter += 1">+</button>
-    <button @click="plusOne()">+</button>
     <p>计数: {{ counter }}</p>
-    <button @click="plus(3, $event)">+count</button>
+    <button @click="plusOne(), plus(3, $event)">+count</button>
   </div>
 </template>
 
@@ -16,6 +14,7 @@ export default class App extends Vue {
   // 定义一个递增1的组件方法
   plusOne(): void {
     this.counter++;
+    console.log("plusOne");
   }
 
   // 定义一个递增任意数的组件方法

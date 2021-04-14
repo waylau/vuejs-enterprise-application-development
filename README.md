@@ -47,6 +47,7 @@
 * [for循环表达式](samples/expression-for)
 * [for循环表达式的不同使用场景](samples/expression-for-scene)
 * [事件](samples/event-basic)
+* [多事件处理器](samples/event-muti)
 * 未完待续...
 
 
