@@ -49,6 +49,8 @@
 * [事件](samples/event-basic)
 * [多事件处理器](samples/event-muti)
 * [表单输入绑定的基础用法](samples/form-input-binding)
+* [表单输入绑定的值绑定](samples/form-input-binding-value-binding)
+* [表单输入绑定的修饰符](samples/form-input-binding-modifier)
 * 未完待续...
 
 
