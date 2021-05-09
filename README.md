@@ -51,6 +51,15 @@
 * [表单输入绑定的基础用法](samples/form-input-binding)
 * [表单输入绑定的值绑定](samples/form-input-binding-value-binding)
 * [表单输入绑定的修饰符](samples/form-input-binding-modifier)
+* [组件局部注册](samples/component-local-registration)
+* [组件模板引用](samples/component-template-ref)
+* [组件prop](samples/component-prop)
+* [组件非prop的attribute](samples/component-attribute)
+* [组件自定义事件](samples/component-custom-event)
+* [组件插槽后备内容](samples/component-slot)
+* [组件具名插槽](samples/component-slot-named)
+* [组件依赖注入](samples/component-provide-inject)
+* [异步组件](samples/component-async)
 * 未完待续...
 
 
