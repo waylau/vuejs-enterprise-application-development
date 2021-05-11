@@ -60,6 +60,8 @@
 * [组件具名插槽](samples/component-slot-named)
 * [组件依赖注入](samples/component-provide-inject)
 * [异步组件](samples/component-async)
+* [基于class的动画的例子](samples/transitions-class)
+* [与style绑定的过渡的例子](samples/transitions-style)
 * 未完待续...
 
 
