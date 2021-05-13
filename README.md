@@ -63,6 +63,7 @@
 * [基于class的动画的例子](samples/transitions-class)
 * [与style绑定的过渡的例子](samples/transitions-style)
 * [自定义过渡class类名的例子](samples/transitions-custom-class)
+* [列表过渡的例子](samples/transitions-list)
 * 未完待续...
 
 
