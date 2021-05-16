@@ -64,6 +64,13 @@
 * [与style绑定的过渡的例子](samples/transitions-style)
 * [自定义过渡class类名的例子](samples/transitions-custom-class)
 * [列表过渡的例子](samples/transitions-list)
+* [混入示例](samples/mixins-basic)
+* [自定义指令](samples/directive-custom)
+* [动态指令参数](samples/directive-dynamic-argument)
+* [动态指令绑定对象字面量](samples/directive-object-literal)
+* [传入的基本例子](samples/tteleport-basic)
+* [与组件一起使用的例子](samples/teleport-with-component)
+* [在同一目标上使用多个传送的例子](samples/teleport-muti)
 * 未完待续...
 
 
