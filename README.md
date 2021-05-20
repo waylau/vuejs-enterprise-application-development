@@ -20,7 +20,7 @@
 * [Vue 3模板的基本概念](https://developer.huawei.com/consumer/cn/forum/topic/0204534591566950006?fid=23)
 * [Vue 3模板的插值](https://developer.huawei.com/consumer/cn/forum/topic/0204534592593360007?fid=23)
 * [Vue 3模板的指令](https://developer.huawei.com/consumer/cn/forum/topic/0203534593037900023?fid=23)
-
+* [Vue 3渲染函数](https://developer.huawei.com/consumer/cn/forum/topic/0202569044433010792?fid=23)
 * 未完待续...
 
 ## Samples 示例
@@ -71,6 +71,9 @@
 * [传入的基本例子](samples/tteleport-basic)
 * [与组件一起使用的例子](samples/teleport-with-component)
 * [在同一目标上使用多个传送的例子](samples/teleport-muti)
+* [渲染函数](samples/render-function)
+* [h()生成子代VNode的例子](samples/render-function-children)
+* [JavaScript代替v-if和v-for](samples/render-function-js-if-for)
 * 未完待续...
 
 
