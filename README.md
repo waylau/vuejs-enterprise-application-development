@@ -74,6 +74,7 @@
 * [渲染函数](samples/render-function)
 * [h()生成子代VNode的例子](samples/render-function-children)
 * [JavaScript代替v-if和v-for](samples/render-function-js-if-for)
+* [Mocha单元测试的例子](samples/unit-test-mocha)
 * 未完待续...
 
 
