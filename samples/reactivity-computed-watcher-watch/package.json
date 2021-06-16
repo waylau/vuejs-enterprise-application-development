@@ -1,5 +1,5 @@
 {
-  "name": "reactivity-ref",
+  "name": "reactivity-computed-watcher-watch",
   "version": "0.1.0",
   "private": true,
   "scripts": {

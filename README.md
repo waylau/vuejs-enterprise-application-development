@@ -21,6 +21,8 @@
 * [Vue 3模板的插值](https://developer.huawei.com/consumer/cn/forum/topic/0204534592593360007?fid=23)
 * [Vue 3模板的指令](https://developer.huawei.com/consumer/cn/forum/topic/0203534593037900023?fid=23)
 * [Vue 3渲染函数](https://developer.huawei.com/consumer/cn/forum/topic/0202569044433010792?fid=23)
+* [Vue 3响应式侦听之watchEffect详解](https://developer.huawei.com/consumer/cn/forum/topic/0202592486629670299?fid=23)
+* [Vue 3响应式侦听之watch详解](https://developer.huawei.com/consumer/cn/forum/topic/0201592487366740327?fid=23)
 * 未完待续...
 
 ## Samples 示例
@@ -75,7 +77,9 @@
 * [h()生成子代VNode的例子](samples/render-function-children)
 * [JavaScript代替v-if和v-for](samples/render-function-js-if-for)
 * [Mocha单元测试的例子](samples/unit-test-mocha)
-* [实战：ref的使用](samples/reactivity-ref)
+* [ref的使用](samples/reactivity-ref)
+* [使用watchEffect侦听变化、停止侦听](samples/reactivity-computed-watcher-watcheffect)
+* [使用watch侦听多个数据源、数组](samples/reactivity-computed-watcher-watch)
 * 未完待续...
 
 
