@@ -84,7 +84,8 @@
 * [使用watchEffect侦听变化、停止侦听](samples/reactivity-computed-watcher-watcheffect)
 * [使用watch侦听多个数据源、数组](samples/reactivity-computed-watcher-watch)
 * [静态路由](samples/routing-basic)
-* [动态路由](samples/routing-dynamic)
+* [“新闻头条”骨架](samples/news-headlines-skeleton)
+* [“新闻头条”完整版](samples/news-headlines)
 * 未完待续...
 
 
