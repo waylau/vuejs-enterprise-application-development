@@ -23,6 +23,9 @@
 * [Vue 3渲染函数](https://developer.huawei.com/consumer/cn/forum/topic/0202569044433010792?fid=23)
 * [Vue 3响应式侦听之watchEffect详解](https://developer.huawei.com/consumer/cn/forum/topic/0202592486629670299?fid=23)
 * [Vue 3响应式侦听之watch详解](https://developer.huawei.com/consumer/cn/forum/topic/0201592487366740327?fid=23)
+* [Vue 3路由之理解路由的概念](https://developer.huawei.com/consumer/cn/forum/topic/0201593292552200381?fid=23)
+* [Vue 3路由之一个路由的例子](https://developer.huawei.com/consumer/cn/forum/topic/0201593293503540382?fid=23)
+* [Vue 3路由之动态路由的例子](https://developer.huawei.com/consumer/cn/forum/topic/0202593294158850353?fid=23)
 * 未完待续...
 
 ## Samples 示例
@@ -80,6 +83,8 @@
 * [ref的使用](samples/reactivity-ref)
 * [使用watchEffect侦听变化、停止侦听](samples/reactivity-computed-watcher-watcheffect)
 * [使用watch侦听多个数据源、数组](samples/reactivity-computed-watcher-watch)
+* [静态路由](samples/routing-basic)
+* [动态路由](samples/routing-dynamic)
 * 未完待续...
 
 
