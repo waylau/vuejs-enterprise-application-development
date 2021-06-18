@@ -26,6 +26,7 @@
 * [Vue 3路由之理解路由的概念](https://developer.huawei.com/consumer/cn/forum/topic/0201593292552200381?fid=23)
 * [Vue 3路由之一个路由的例子](https://developer.huawei.com/consumer/cn/forum/topic/0201593293503540382?fid=23)
 * [Vue 3路由之动态路由的例子](https://developer.huawei.com/consumer/cn/forum/topic/0202593294158850353?fid=23)
+* [Vue 3使用Ant Design Vue](https://developer.huawei.com/consumer/cn/forum/topic/0202594139680670396?fid=23)
 * 未完待续...
 
 ## Samples 示例
@@ -84,6 +85,7 @@
 * [使用watchEffect侦听变化、停止侦听](samples/reactivity-computed-watcher-watcheffect)
 * [使用watch侦听多个数据源、数组](samples/reactivity-computed-watcher-watch)
 * [静态路由](samples/routing-basic)
+* [使用Ant Design Vue](samples/ant-design-vue-button)
 * [“新闻头条”骨架](samples/news-headlines-skeleton)
 * [“新闻头条”完整版](samples/news-headlines)
 * 未完待续...
