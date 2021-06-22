@@ -86,6 +86,7 @@
 * [使用watch侦听多个数据源、数组](samples/reactivity-computed-watcher-watch)
 * [静态路由](samples/routing-basic)
 * [使用Ant Design Vue](samples/ant-design-vue-button)
+* [使用Naive UI](samples/naive-ui-button)
 * [“新闻头条”骨架](samples/news-headlines-skeleton)
 * [“新闻头条”完整版](samples/news-headlines)
 * 未完待续...
