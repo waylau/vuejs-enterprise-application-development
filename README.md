@@ -27,6 +27,7 @@
 * [Vue 3路由之一个路由的例子](https://developer.huawei.com/consumer/cn/forum/topic/0201593293503540382?fid=23)
 * [Vue 3路由之动态路由的例子](https://developer.huawei.com/consumer/cn/forum/topic/0202593294158850353?fid=23)
 * [Vue 3使用Ant Design Vue](https://developer.huawei.com/consumer/cn/forum/topic/0202594139680670396?fid=23)
+* [Vue 3使用Naive UI](https://developer.huawei.com/consumer/cn/forum/topic/0201597875896130615?fid=23)
 * 未完待续...
 
 ## Samples 示例
