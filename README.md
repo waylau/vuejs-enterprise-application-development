@@ -90,6 +90,7 @@
 * [使用Naive UI](samples/naive-ui-button)
 * [“新闻头条”骨架](samples/news-headlines-skeleton)
 * [“新闻头条”首页](samples/news-headlines-home)
+* [“新闻头条”导航栏](samples/news-headlines-navigater)
 * [“新闻头条”完整版](samples/news-headlines)
 * 未完待续...
 
