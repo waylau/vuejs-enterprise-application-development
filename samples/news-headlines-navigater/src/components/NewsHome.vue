@@ -1,14 +1,11 @@
 <template>
   <div class="news-home">
-    <n-affix
-            :trigger-top="50"
-            position="absolute"
- 
-          >
-    <NewsNavigater> </NewsNavigater>
-          </n-affix>
-
-    <NewsList> </NewsList>
+    <n-layout-header style="height: 64px; padding: 24px" bordered>
+      <NewsNavigater @tab-click-event="handleTabClickEvent"> </NewsNavigater>
+    </n-layout-header>
+    <n-layout position="absolute" style="top: 64px; bottom: 64px">
+      <NewsList :msg="alias"> </NewsList>
+    </n-layout>
   </div>
 </template>
 
@@ -16,14 +13,24 @@
 import { Options, Vue } from "vue-class-component";
 import NewsList from "./NewsList.vue";
 import NewsNavigater from "./NewsNavigater.vue";
-import { NAffix } from "naive-ui";
+import { NLayout, NLayoutHeader } from "naive-ui";
 
 @Options({
   components: {
     NewsNavigater,
     NewsList,
-    NAffix
+    NLayoutHeader,
+    NLayout,
   },
 })
-export default class NewsHome extends Vue {}
+export default class NewsHome extends Vue {
+  private alias!:string;
+
+  handleTabClickEvent(alias: string) {
+    console.log("handleTabClickEvent:" + alias);
+
+    // 标签页的分类别名
+    this.alias = alias;
+  }
+}
 </script>
