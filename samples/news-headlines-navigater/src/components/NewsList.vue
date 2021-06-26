@@ -1,6 +1,5 @@
 <template>
   <div class="news-list">
-    {{ alias }}
     <n-card
       v-for="newsMsg in news"
       :key="newsMsg.uniquekey"
@@ -29,41 +28,35 @@ import axios from "axios";
     NSpace,
   },
   props: {
-    alias: String
-  }
-,
+    // 输入参数alias
+    alias: String,
+  },
   watch: {
-      // 侦听alias的变化
-      alias(newAlias:string) {
-          this.getData(newAlias)
-      }
-    }
+    // 侦听alias的变化
+    alias() {
+      this.getData();
+    },
+  },
 })
 export default class NewsList extends Vue {
   // 绑定模型用的变量
-  private news:any = [];
+  private news: any = [];
 
   // 新闻列表API地址
-  private newsApiUrl:string = "http://v.juhe.cn/toutiao/index?type=";
-  private alias:string = "top"; // 默认值top，获取全部的新闻数据
-  private key:string = "&key=d95eb2c02b12e841bafb5a49d20924be";
+  private newsApiUrl: string = "http://v.juhe.cn/toutiao/index?type=";
+  private alias: string = "top"; // 默认值top，获取全部的新闻数据
+  private key: string = "&key=d95eb2c02b12e841bafb5a49d20924be";
 
   // 初始化时就要获取数据
   mounted() {
     this.getData();
   }
 
+  // 调用API数据
   getData() {
     axios
       .get(this.newsApiUrl + this.alias + this.key)
       .then((response) => (this.news = response.data.result.data));
   }
-
-  getDataByAlias(newAlias:string) {
-    axios
-      .get(this.newsApiUrl + newAlias + this.key)
-      .then((response) => (this.news = response.data.result.data));
-  }
-
 }
 </script>

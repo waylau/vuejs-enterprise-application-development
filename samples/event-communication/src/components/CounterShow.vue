@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{ count }}</h1>
   </div>
 </template>
 
@@ -9,10 +9,10 @@ import { Options, Vue } from "vue-class-component";
 
 @Options({
   props: {
-    msg: String,
+    count: Number,
   },
 })
-export default class HelloWorld extends Vue {
-  msg!: string;
+export default class CounterShow extends Vue {
+  count!: number;
 }
 </script>

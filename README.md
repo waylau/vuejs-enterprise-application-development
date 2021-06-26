@@ -28,6 +28,7 @@
 * [Vue 3路由之动态路由的例子](https://developer.huawei.com/consumer/cn/forum/topic/0202593294158850353?fid=23)
 * [Vue 3使用Ant Design Vue](https://developer.huawei.com/consumer/cn/forum/topic/0202594139680670396?fid=23)
 * [Vue 3使用Naive UI](https://developer.huawei.com/consumer/cn/forum/topic/0201597875896130615?fid=23)
+* [Vue 3通过事件实现组件之间的通信](https://developer.huawei.com/consumer/cn/forum/topic/0201599974181330742?fid=23)
 * 未完待续...
 
 ## Samples 示例
@@ -54,6 +55,7 @@
 * [for循环表达式](samples/expression-for)
 * [for循环表达式的不同使用场景](samples/expression-for-scene)
 * [事件](samples/event-basic)
+* [通过事件实现组件之间的通信](samples/event-communication)
 * [多事件处理器](samples/event-muti)
 * [表单输入绑定的基础用法](samples/form-input-binding)
 * [表单输入绑定的值绑定](samples/form-input-binding-value-binding)
