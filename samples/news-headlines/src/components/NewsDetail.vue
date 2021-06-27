@@ -3,7 +3,11 @@
     <n-space>
       <n-button @click="goback">返回</n-button>
     </n-space>
-    <div v-html="newsDetailContent"></div>
+    <h1 v-if="newsDetailResult.detail">{{ newsDetailResult.detail.title }}</h1>
+    <h4 v-if="newsDetailResult.detail">
+      时间：{{ newsDetailResult.detail.date }}
+    </h4>
+    <div v-if="newsDetailResult" v-html="newsDetailResult.content"></div>
   </div>
 </template>
 
@@ -19,10 +23,7 @@ import axios from "axios";
 })
 export default class NewsDetail extends Vue {
   // 新闻详情页面数据
-  private newsDetailContent: any =
-    "<p >其实明星当中有很对人玩网络游戏，特别是英雄联盟和王者荣耀，最近佛山GK电子竞技俱乐部宣布，黄子韬将加盟GK，担任合伙人兼联席CEO。今后，他将与俱乐部合作培养选手和艺人。</p><p >\n            <img width='100%' src='//dfzximg01.dftoutiao.com/minimodify/20210308/500x700_6045b42b1dd23.png' data-weight='500' data-width='500' data-height='700'></p>";
-    // 新闻详情页面URL
-  private newsUrl: string = "";
+  private newsDetailResult: any = {};
 
   // 新闻列表API地址
   private newsApiUrl: string = "http://v.juhe.cn/toutiao/content?uniquekey=";
@@ -42,12 +43,10 @@ export default class NewsDetail extends Vue {
     console.log("receive uniquekey: " + this.uniquekey);
 
     axios
-      /*.get(this.newsApiUrl + this.uniquekey + this.key)
-      .then(
-        (response) => (this.newsDetailContent = response.data.result.content)
-      );
-      */
-    console.log(this.newsDetailContent);
+      .get(this.newsApiUrl + this.uniquekey + this.key)
+      .then((response) => (this.newsDetailResult = response.data.result));
+
+    console.log(this.newsDetailResult);
   }
 
   // 返回
