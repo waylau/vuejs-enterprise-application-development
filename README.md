@@ -116,6 +116,16 @@
 
 书中所有示例源码，移步至<https://github.com/waylau/vuejs-enterprise-application-development>的 `samples` 目录下，代码遵循《[Java 编码规范](<http://waylau.com/java-code-conventions>)》
 
+## Book 配套书籍
+
+如果你喜欢本开源书，也请支持下该书的正式出版物《Vue.js 3企业级应用开发实战》。
+
+实体店及各大网店有售。
+
+京东：<https://item.jd.com/13624356.html>
+当当：<http://product.dangdang.com/29373978.html>
+
+
 ## Issue 意见、建议
 
 如有勘误、意见或建议欢迎拍砖 <https://github.com/waylau/vuejs-enterprise-application-development/issues>
