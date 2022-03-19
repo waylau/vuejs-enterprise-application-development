@@ -1,4 +1,4 @@
-# Vue.js Enterprise Application Development.《跟老卫学Vue.js开发》
+# Vue.js Enterprise Application Development. 《跟老卫学Vue.js开发》/《Vue.js 3企业级应用开发实战》源码
 
 ![](images/logo.png)
 
@@ -122,8 +122,8 @@
 
 实体店及各大网店有售。
 
-京东：<https://item.jd.com/13624356.html>
-当当：<http://product.dangdang.com/29373978.html>
+* 京东：<https://item.jd.com/13624356.html>
+* 当当：<http://product.dangdang.com/29373978.html>
 
 
 ## Issue 意见、建议
