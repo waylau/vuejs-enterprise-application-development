@@ -118,7 +118,7 @@
 
 ## Book 配套书籍
 
-如果你喜欢本开源书，也请支持下该书的正式出版物《Vue.js 3企业级应用开发实战》。
+如果你喜欢本开源书，也请支持下该书的正式出版物《[Vue.js 3企业级应用开发实战](https://waylau.com/vuejs-enterprise-application-development/)》。
 
 实体店及各大网店有售。
 
