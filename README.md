@@ -30,6 +30,7 @@
 * [Vue 3使用Naive UI](https://developer.huawei.com/consumer/cn/forum/topic/0201597875896130615?fid=23)
 * [Vue 3通过事件实现组件之间的通信](https://developer.huawei.com/consumer/cn/forum/topic/0201599974181330742?fid=23)
 * [Node.js更新到17版本后应用启动报错“error:0308010C:digital envelope routines::unsupported”问题的解决](https://developer.huawei.com/consumer/cn/forum/topic/0202766264354680160?fid=23)
+* [构建Vue.js应用报错Could not find a declaration file for module](https://waylau.com/vue-build-could-not-find-a-declaration-file-for-module/)
 * 未完待续...
 
 ## Samples 示例
